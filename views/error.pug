@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  article.grid-container.portfolio-intro
+    h1= error.message
+    h2= error.status
+    img.round(src="/static/images/missing_you.png", alt="Missing You")
+    pre= error.stack
