@@ -1,0 +1,29 @@
+{
+  "name": "techdegree_project_6",
+  "version": "1.0.0",
+  "description": "Static node and Express Portfolio Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeby254/Static-Node-and-Express-Site"
+  },
+  "author": "Mohamed Nuh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madeby254/Static-Node-and-Express-Site/issues"
+  },
+  "homepage": "https://github.com/madeby254/Static-Node-and-Express-Site",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "pug": "^3.0.0"
+  },
+  "engines": {
+    "node": "^12.16.1"
+  }
+}
