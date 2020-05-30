@@ -1,0 +1,99 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "random quote generator",
+        "description": "A random quote generator created in HTML, CSS and JavaScript.",
+        "technologies": [
+          "html",
+          "css",
+          "js"
+        ],
+        "live_link": "https://random-quote254.netlify.app/",
+        "github_link": "https://github.com/madeby254/Random-Quote-Project-1",
+        "image_urls": {
+          "image1": "/static/images/rand_quote1.png",
+          "image2": "/static/images/rand_quote2.png",
+          "image3": "/static/images/rand_quote3.png",
+          "thumbnail": "/static/images/rand_quote_thumb.png"
+        }
+      },
+      {
+        "id": 1,
+        "project_name": "paginated directory",
+        "description": "A student directory with pagination and search function added dynamically with JavaScript.",
+        "technologies": [
+          "html",
+          "css",
+          "js"
+        ],
+        "live_link": "https://pagination254.netlify.app/",
+        "github_link": "https://github.com/madeby254/List-Filter-and-Pagination",
+        "image_urls": {
+          "image1": "/static/images/pagination1.png",
+          "image2": "/static/images/pagination2.png",
+          "image3": "/static/images/pagination3.png",
+          "thumbnail": "/static/images/pagination_thumbnail.png"
+        }
+      },
+      {
+        "id": 2,
+        "project_name": "interactive form",
+        "description": "The form is progressively enhanced with javascript to add customized and conditional behavior and interactivity.",
+        "technologies": [
+          "html",
+          "css",
+          "js",
+          "jquery"
+        ],
+        "live_link": "https://interactive-form254.netlify.app",
+        "github_link": "https://github.com/madeby254/Interactive-Form",
+        "image_urls": {
+          "image1": "/static/images/conf_form1.png",
+          "image2": "/static/images/conf_form2.png",
+          "image3": "/static/images/conf_form3.png",
+          "thumbnail": "/static/images/conf_form_thumbnail.png"
+        }
+      },
+      {
+        "id": 3,
+        "project_name": "phrase hunter",
+        "description": "Browser-based, oop word guessing game app.",
+        "technologies": [
+          "html",
+          "css",
+          "js"
+        ],
+        "live_link": "https://oop-game254.netlify.app",
+        "github_link": "https://github.com/madeby254/OOP-Game-Show-App",
+        "image_urls": {
+          "image1": "/static/images/phrasehunter1.png",
+          "image2": "/static/images/phrasehunter2.png",
+          "image3": "/static/images/phrasehunter3.png",
+          "thumbnail": "/static/images/phrasehunter_thumbnail.png"
+        }
+      },
+      {
+        "id": 4,
+        "project_name": "employee directory",
+        "description": "This app requests a JSON object from an api and parses the data into a directory.",
+        "technologies": [
+          "html",
+          "css",
+          "js",
+          "json",
+          "api"
+        ],
+        "live_link": "https://public-api254.netlify.app/",
+        "github_link": "https://github.com/madeby254/Public-API-Requests",
+        "image_urls": {
+          "image1": "/static/images/awesome_dir1.png",
+          "image2": "/static/images/awesome_dir2.png",
+          "image3": "/static/images/awesome_dir3.png",
+          "thumbnail": "/static/images/awesome_dir_thumbnail.png"
+        }
+      }
+    ]
+  }
+}
