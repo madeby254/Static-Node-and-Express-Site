@@ -2,46 +2,52 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+      i(class="fas fa-arrow-circle-left")  Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Add your name.
-        h1 Name
+        h1 Mohamed Nuh
 
-        //- Feel free personalize the title below
         p.lead.text-light
           | Full Stack JavaScript Developer.
 
-        //- Replace the boilerplate below with your Elevator pitch below.
-        .portfolio-bio
+        .portfolio-bio.fade-in
           p
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
-            | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+            | Hello I am a  am a carrot farmer up in the Pacific Northwest. I speak French to carrots and teach toirtoise French on Wednesday nights. (They prefer night i dont know why).<br/>  <br/>
+
+            | The bigger Toirtoise we call him Georges The Toirtoise. Dude is 120 years. He has seen some stuff. Cracks me up sometimes. One of his favorite quotes is "Ticktok is for peasants". His favorite friends Georges the Toirtoise 2 are cool along his sibling Georges the Tortoise 3 and his cousin names (I know what you thinking great another Toirtoise names Georges) No actuall this one has a very diffrent name. He is called Georges the Toirtoise _1. <br> <br/><br/>
+            
+            | If you are still reading this. Then cudos you attention span is on next level. And since your are here can i talk to you about our lord and savior Georges the Toirtoise 9000. I think next time i will stick to Lorem Ipsums. 
+
       .cell.portfolio-meta.small-6.medium-2.large-3
+        .cell.shrink
+            img.thumbnail.round(src='/static/images/wk_portrait.png')
         h6 Skills
 
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
+          li HTML 
+          li CSS
+          li JS
+          li Node.JS
           li Express
-          li Other cool stuff
-          li Listing my skills
-          li Etc.
-          li Etc. 
-          li Etc.
+          li React
+          li Docker
+          li Git
         h6 Contact Info
 
-        //- Add your own contact info
+
         ul
           li 555-555-1234
-          li email@email.com
+          li nuhm39@gmail.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+        a.button.expanded.round(href='https://www.africasafari.co.uk/blog/prison-island.htm' target="_blank") Lord 9000
+        a.button.expanded.round(href='https://github.com/madeby254' target="_blank") GitHub
+        a.button.expanded.round(href='https://twitter.com/oldroot07' target="_blank") Twitter
+        a.button.expanded.round(href='https://www.youtube.com/watch?v=oHg5SJYRHA0' target="_blank") Covid Cure 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/')
+      i(class="fas fa-arrow-circle-left")  Back
   
